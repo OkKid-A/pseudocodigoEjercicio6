@@ -1,0 +1,19 @@
+Proceso Ejercicio6
+	menCont <- 0
+	menTotal <- 0
+	mayCont <- 0
+	mayTotal <- 0
+	Para i=0; hasta 100;i+++
+		Leer N
+		Si (N < 25) Entonces
+			menCont++
+			menTotal = menTotal + N
+		Sino
+			mayCont++
+			mayTotal = mayTotal + N
+		Fin Si
+	Fin Para
+	promedioMay <- mayTotal/mayCont
+	promedioMen <- menTotal/menCont
+	Escribir "El promedio de edades menores a 25 es ",promedioMen," y el promedio de edades mayores a 25 es ",promedioMay
+FinProceso
